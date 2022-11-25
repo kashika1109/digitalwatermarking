@@ -4,7 +4,7 @@ import Faq1 from './components/Faq1';
 import Footer from './components/Footer';
 import Hero from './components/home';
 import Navbar from './components/Navbar'
-import Support from './components/customers'
+import Support from './components/support'
 import Signin from './components/Signin'
 import NotFound from "./components/Notfound";
 // import Upload from './components/upload';
