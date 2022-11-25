@@ -7,23 +7,23 @@ const Faq1 = () => {
   const faq = [
     {
       number: 1,
-      question: "What is Fancy best component?",
-      answer: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque veritatis deserunt, praesentium impedit provident amet laudantium quibusdam a saepe atque odio, quidem quia eos ab aperiam quos! Officia, ducimus temporibus!"
+      question: "What is the purpose of watermarking?",
+      answer: "Watermarks are used to protect images and visual files from being stolen and used or altered without the owner's permission"
     },
     {
       number: 2,
-      question: "What is Fancy best component?",
-      answer: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque veritatis deserunt, praesentium impedit provident amet laudantium quibusdam a saepe atque odio, quidem quia eos ab aperiam quos! Officia, ducimus temporibus!"
+      question: "Does watermarking use encryption?",
+      answer: "The main watermark is encrypted and then embedded into the main image. The main goal in encrypting the watermarks before embedding is increased safety"
     },
     {
       number: 3,
-      question: "What is Fancy best component?",
-      answer: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque veritatis deserunt, praesentium impedit provident amet laudantium quibusdam a saepe atque odio, quidem quia eos ab aperiam quos! Officia, ducimus temporibus!"
+      question: "How can a digital watermark protect a document?",
+      answer: "Digital watermarking enables corporations and brand owners to embed a unique digital ID into confidential documents and digital images. This digital information is imperceptible tohumans but can easily be detected by computers, networks and various digital devices"
     },
     {
       number: 4,
-      question: "What is Fancy best component?",
-      answer: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque veritatis deserunt, praesentium impedit provident amet laudantium quibusdam a saepe atque odio, quidem quia eos ab aperiam quos! Officia, ducimus temporibus!"
+      question: "Where can digital watermarking techniques be used?",
+      answer: "Digital watermarking can be used for content aithentication, copy control, transaction tracking,broadcast monitoring etc."
     },
     
   ]

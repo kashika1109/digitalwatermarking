@@ -73,27 +73,20 @@ const About = () => {
                 </svg>
               </div>
               <div class="flex-grow">
-                <h2 class="text-gray-900 text-lg title-font font-medium mb-3">
-                  Shooting Stars
+                <h2 class="text-indigo-100 text-lg title-font font-medium mb-3">
+                Why You Should Add a Watermark to Photos?
                 </h2>
+                <div class="text-fuchsia-200">
                 <p class="leading-relaxed text-base">
-                  Blue bottle crucifix vinyl post-ironic four dollar toast vegan
-                  taxidermy. Gastropub indxgo juice poutine.
+                1. Protection of confidential information from theft or forgery.
                 </p>
-                <a class="mt-3 text-indigo-500 inline-flex items-center">
-                  Learn More
-                  <svg
-                    fill="none"
-                    stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    class="w-4 h-4 ml-2"
-                    viewBox="0 0 24 24"
-                  >
-                    <path d="M5 12h14M12 5l7 7-7 7"></path>
-                  </svg>
-                </a>
+                <p class="leading-relaxed text-base">
+                2. Identification of document authenticity and copyright
+                </p>
+                <p class="leading-relaxed text-base">
+                3. Protection of personal files from the hands of fraudsters and those who want to use them without permission.
+                </p>
+                </div>
               </div>
             </div>
             <div class="flex flex-col mb-10 lg:items-start items-center">
@@ -113,27 +106,12 @@ const About = () => {
                 </svg>
               </div>
               <div class="flex-grow">
-                <h2 class="text-gray-900 text-lg title-font font-medium mb-3">
-                  The Catalyzer
-                </h2>
-                <p class="leading-relaxed text-base">
-                  Blue bottle crucifix vinyl post-ironic four dollar toast vegan
-                  taxidermy. Gastropub indxgo juice poutine.
+                <h1 class="text-indigo-100 text-lg title-font font-medium mb-3">
+                Best Performance
+                </h1>
+                <p class="text-fuchsia-200 leading-relaxed text-base">
+                Instant uploads and downloads of small and large images. Select photos on your computer and start watermarking them immediately. Uploads and download are instant even if you have a slow internet connection.
                 </p>
-                <a class="mt-3 text-indigo-500 inline-flex items-center">
-                  Learn More
-                  <svg
-                    fill="none"
-                    stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    class="w-4 h-4 ml-2"
-                    viewBox="0 0 24 24"
-                  >
-                    <path d="M5 12h14M12 5l7 7-7 7"></path>
-                  </svg>
-                </a>
               </div>
             </div>
           </div>
@@ -162,67 +140,17 @@ const About = () => {
                 </svg>
               </div>
               <div class="flex-grow">
-                <h2 class="text-gray-900 text-lg title-font font-medium mb-3">
-                  Shooting Stars
-                </h2>
-                <p class="leading-relaxed text-base">
-                  Blue bottle crucifix vinyl post-ironic four dollar toast vegan
-                  taxidermy. Gastropub indxgo juice poutine.
+                <h1 class="text-indigo-100 text-lg title-font font-medium mb-3 text-3xl">
+                Step by Step Instruction:
+                </h1>
+                <div class="text-fuchsia-200 text-5xl">
+                <p class="leading-relaxed text-2xl ">
+                Step 1- Enter watermarked image
                 </p>
-                <a class="mt-3 text-indigo-500 inline-flex items-center">
-                  Learn More
-                  <svg
-                    fill="none"
-                    stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    class="w-4 h-4 ml-2"
-                    viewBox="0 0 24 24"
-                  >
-                    <path d="M5 12h14M12 5l7 7-7 7"></path>
-                  </svg>
-                </a>
-              </div>
-            </div>
-            <div class="flex flex-col mb-10 lg:items-start items-center">
-              <div class="w-12 h-12 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-5">
-                <svg
-                  fill="none"
-                  stroke="currentColor"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  class="w-6 h-6"
-                  viewBox="0 0 24 24"
-                >
-                  <circle cx="6" cy="6" r="3"></circle>
-                  <circle cx="6" cy="18" r="3"></circle>
-                  <path d="M20 4L8.12 15.88M14.47 14.48L20 20M8.12 8.12L12 12"></path>
-                </svg>
-              </div>
-              <div class="flex-grow">
-                <h2 class="text-gray-900 text-lg title-font font-medium mb-3">
-                  The Catalyzer
-                </h2>
-                <p class="leading-relaxed text-base">
-                  Blue bottle crucifix vinyl post-ironic four dollar toast vegan
-                  taxidermy. Gastropub indxgo juice poutine.
+                <p class="leading-relaxed text-2xl ">
+                Step 2-Enter unique key given with the watermarked image for extraction
                 </p>
-                <a class="mt-3 text-indigo-500 inline-flex items-center">
-                  Learn More
-                  <svg
-                    fill="none"
-                    stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    class="w-4 h-4 ml-2"
-                    viewBox="0 0 24 24"
-                  >
-                    <path d="M5 12h14M12 5l7 7-7 7"></path>
-                  </svg>
-                </a>
+                </div>
               </div>
             </div>
           </div>

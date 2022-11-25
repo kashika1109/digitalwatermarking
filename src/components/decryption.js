@@ -34,16 +34,7 @@ class Decryption extends Component {
     }
    return true;
   }
-//   maxSelectFile=(event)=>{
-//     let files = event.target.files
-//         if (files.length > 1) { 
-//            const msg = 'Only 3 images can be uploaded at a time'
-//            event.target.value = null
-//            toast.warn(msg)
-//            return false;
-//       }
-//     return true;
-//  }
+
  checkFileSize=(event)=>{
   let files = event.target.files
   let size = 2000000 
@@ -123,7 +114,7 @@ onChangeHandler2=event=>{
                 <div class="m-4">
                   <div class="flex flex-col">
                     <h1 class="text-center mb-5 text-4xl text-indigo-900">
-                      WATERMARKING
+                      DECRYPTION
                     </h1>
                     <label class="inline-block mb-2 text-black-800 text-2xl">
                       Files Upload
@@ -151,7 +142,9 @@ onChangeHandler2=event=>{
                             Attach watermarked image
                           </p> 
                         </div>
+                        <div class="flex items-center justify-center">
                         <input type="file" class="form-control" onChange={this.onChangeHandler1}/>
+                        </div>
                       </label>
                     </div> 
                     <div class="form-group">
@@ -178,7 +171,9 @@ onChangeHandler2=event=>{
                             Attach key
                           </p>
                         </div>
+                        <div class="flex items-center justify-center">
                         <input type="file" class="form-control" onChange={this.onChangeHandler2}/>
+                        </div>
                       </label>
                     </div>
                     <div class="form-group">

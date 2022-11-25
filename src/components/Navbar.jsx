@@ -23,7 +23,7 @@ const Navbar = () => {
           <ul className='hidden md:flex'>
           <li><Link to="home" smooth={true} duration={500} className="cursor-pointer hover:text-fuchsia-400">Home</Link></li>
           <li><Link to="watermark" smooth={true} offset={-200} duration={500} className="cursor-pointer hover:text-fuchsia-400">Watermark</Link></li>
-          <li><Link to="extract" smooth={true} offset={-50} duration={500} className="cursor-pointer hover:text-fuchsia-400">Extract</Link></li>
+          <li><Link to="extract" smooth={true} offset={-50} duration={500} className="cursor-pointer hover:text-fuchsia-400">Decryption</Link></li>
           <li><Link to="faq" smooth={true} offset={-100} duration={500} className="cursor-pointer hover:text-fuchsia-400">FAQ</Link></li>
           </ul>
         </div>

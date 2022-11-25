@@ -151,7 +151,9 @@ onChangeHandler2=event=>{
                             Attach cover image
                           </p> 
                         </div>
+                        <div class="flex items-center justify-center">
                         <input type="file" class="form-control" onChange={this.onChangeHandler1}/>
+                        </div>
                       </label>
                     </div> 
                     <div class="form-group">
@@ -178,7 +180,9 @@ onChangeHandler2=event=>{
                             Attach image to Watermark
                           </p>
                         </div>
+                        <div class="flex items-center justify-center">
                         <input type="file" class="form-control" onChange={this.onChangeHandler2}/>
+                        </div>
                       </label>
                     </div>
                     <div class="form-group">
