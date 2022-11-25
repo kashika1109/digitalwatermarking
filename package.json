@@ -1,0 +1,63 @@
+{
+  "name": "cloud-app-react",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.2.1",
+    "@fortawesome/free-solid-svg-icons": "^6.2.1",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "@headlessui/react": "^1.7.4",
+    "@heroicons/react": "^1.0.5",
+    "@testing-library/jest-dom": "^5.14.1",
+    "@testing-library/react": "^12.0.0",
+    "@testing-library/user-event": "^13.2.1",
+    "autoprefixer": "^10.4.2",
+    "axios": "^1.2.0",
+    "bootstrap": "^5.2.3",
+    "downloadjs": "^1.4.7",
+    "multer": "^1.4.5-lts.1",
+    "node-sass": "^8.0.0",
+    "postcss": "^8.4.7",
+    "react": "^17.0.2",
+    "react-axios": "^2.0.6",
+    "react-bootstrap": "^2.6.0",
+    "react-dom": "^17.0.2",
+    "react-dropzone": "^14.2.3",
+    "react-icons": "^4.3.1",
+    "react-router-dom": "^5.3.4",
+    "react-scripts": "5.0.0",
+    "react-scroll": "^1.8.5",
+    "react-toastify": "^9.1.1",
+    "reactstrap": "^9.1.5",
+    "tailwindcss": "^3.0.23",
+    "web-vitals": "^2.1.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@tailwindcss/forms": "^0.5.3",
+    "sass": "^1.56.1"
+  }
+}

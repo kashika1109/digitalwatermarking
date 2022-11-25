@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  li {
+    @apply p-4
+    text-fuchsia-200
+    text-xl
+  }
+
+  button {
+    @apply text-indigo-900 border bg-fuchsia-200 border-fuchsia-200
+    hover:bg-transparent hover:text-fuchsia-200 rounded-md
+  }
+}
