@@ -53,7 +53,7 @@ const Faq1 = () => {
                     </Disclosure.Button>
                   </dt>
                   {/* Answer */}
-                  <dd className="w-full text-base text-fuchsia-200">
+                  <dd className="w-full text-base text-violet-900">
                     <Disclosure.Panel className="px-4 pt-4 pb-2">
                       {faq.answer}
                     </Disclosure.Panel>
