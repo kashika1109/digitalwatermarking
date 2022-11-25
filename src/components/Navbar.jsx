@@ -42,7 +42,7 @@ const Navbar = () => {
       <ul className={!nav ? 'hidden' : 'absolute bg-gradient-to-r from-slate-900 via-purple-900 to-slate-900 w-full px-8'}>
           <li className='border-b-2 border-zinc-300 cursor-pointer hover:text-fuchsia-400 w-full'><Link onClick={handleClose} to="home" smooth={true} duration={500}>Home</Link></li>
           <li className='border-b-2 border-zinc-300 cursor-pointer hover:text-fuchsia-400 w-full'><Link onClick={handleClose} to="watermark" smooth={true} offset={-200} duration={500}>Watermark</Link></li>
-          <li className='border-b-2 border-zinc-300 cursor-pointer hover:text-fuchsia-400 w-full'><Link onClick={handleClose} to="extract" smooth={true} offset={-50} duration={500}>Extract</Link></li>
+          <li className='border-b-2 border-zinc-300 cursor-pointer hover:text-fuchsia-400 w-full'><Link onClick={handleClose} to="extract" smooth={true} offset={-50} duration={500}>Decryption</Link></li>
           <li className='border-b-2 border-zinc-300 cursor-pointer hover:text-fuchsia-400 w-full'><Link onClick={handleClose} to="faq" smooth={true} offset={-100} duration={500}>FAQ</Link></li>
 
         <div className='flex flex-col my-4'>
