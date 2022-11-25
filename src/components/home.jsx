@@ -15,7 +15,7 @@ const Hero = () => {
                 <p className='text-2xl'>This is our Tech brand.</p>
                 
                 <Link to ="watermark" className='py-3 px-6 sm:w-[60%] my-4 text-2xl text-center cursor-pointer text-indigo-900 border bg-fuchsia-200 border-fuchsia-200 hover:bg-transparent hover:text-fuchsia-200 rounded-md'>Watermark</Link>
-                <Link to="extract" className='py-3 px-6 sm:w-[60%] mb-4 text-2xl text-center cursor-pointer text-indigo-900 border bg-fuchsia-200 border-fuchsia-200 hover:bg-transparent hover:text-fuchsia-200 rounded-md '>Extraction</Link>     
+                <Link to="extract" className='py-3 px-6 sm:w-[60%] mb-4 text-2xl text-center cursor-pointer text-indigo-900 border bg-fuchsia-200 border-fuchsia-200 hover:bg-transparent hover:text-fuchsia-200 rounded-md '>Decryption</Link>     
             </div>
             <div>
                 <img className='w-full' src={se2} alt="/" />
