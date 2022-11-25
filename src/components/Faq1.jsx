@@ -34,7 +34,7 @@ const Faq1 = () => {
       {/* :TITLE & IMAGE */}
       <div className="mb-8 mx-auto  max-w-4xl flex flex-col items-center">
         {/* <img src="https://fancytailwind.com/static/faq1-8ef2a6c2addbed9f838eea20b9ad21b6.png" alt="Frequently Asked Questions" className="w-full h-full" /> */}
-        <h2 className="text-center text-2xl sm:text-4xl text-indigo-900 tracking-widest">Frequently Asked Questions 1</h2>
+        <h2 className="text-center text-2xl sm:text-4xl text-indigo-900 tracking-widest">Frequently Asked Questions</h2>
       </div>
 
       {/* :FAQ */}
